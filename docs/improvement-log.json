@@ -26,6 +26,24 @@
       "next_milestone": "P01",
       "next_owner": "Existing Academic GitHub Development routine, within the shared active-work limit",
       "next_gate": "A read-only Symbolon adapter must preserve the real source export and identifiers and cannot call a ledger or authorise a transaction."
+    },
+    {
+      "id": "P00-GTM-20261025",
+      "date": "2026-10-25",
+      "stage": "private_commercial_preparation",
+      "problem": "The engineering roadmap needs an evidence-led product launch sequence and a bounded commercial learning process.",
+      "change": "Prioritised P02 independent benchmark and human first use plus the minimum P03 operator/input boundary; kept P01 conditional on actual workflow need; defined a two-pilot product-learning bridge and recurring-value gate.",
+      "validation": {
+        "documentation_review": "Complete changed-file review, link and private-content checks; actual PR and commit recorded in the private setup receipt",
+        "engine_tests": "NOT_RERUN_DOCUMENTATION_ONLY",
+        "independent_human_first_use": "OPEN"
+      },
+      "observed_outcome": "A documented launch sequence and ownership boundaries; no claim of customer demand, outreach, licence activation or public release.",
+      "work_allowed": false,
+      "payment_authorised": false,
+      "next_milestone": "P02 and minimum P03",
+      "next_owner": "Academic GitHub Development within shared work limit; private operational tracking by GitHub Adoption",
+      "next_gate": "Prelabelled benchmark, independent human reconstruction evidence and minimum permitted-input/operator boundary before customer operation; all commercial gates still required."
     }
   ]
 }
