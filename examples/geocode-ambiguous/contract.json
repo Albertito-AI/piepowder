@@ -1,0 +1,48 @@
+{
+  "schema_version": "piepowder.contract/0.1",
+  "contract_id": "fictional-geocode-contract",
+  "parties": [
+    {
+      "party_id": "buyer",
+      "role": "buyer",
+      "principal_name": "Fictional Northbridge Logistics",
+      "agent_id": "buyer-agent"
+    },
+    {
+      "party_id": "seller",
+      "role": "seller",
+      "principal_name": "Fictional Meridian Data Services",
+      "agent_id": "seller-agent"
+    }
+  ],
+  "formed_at": "2026-01-01T12:00:00Z",
+  "currency": "USD",
+  "price_minor": 200000,
+  "policy": {
+    "policy_id": "offline-sandbox",
+    "version": "0.1"
+  },
+  "mandate_ids": [
+    "buyer-mandate",
+    "seller-mandate"
+  ],
+  "obligations": [
+    {
+      "obligation_id": "geocode-delivery",
+      "debtor": "seller",
+      "creditor": "buyer",
+      "trigger_at": "2026-01-02T12:00:00Z",
+      "due_at": "2026-01-03T12:00:00Z",
+      "acceptance": {
+        "kind": "geocode_accuracy",
+        "evidence_id": "sample-results",
+        "assessor_id": "offline-deterministic",
+        "sample_size": 1000,
+        "threshold_bps": 9800,
+        "denominator": "unspecified",
+        "max_flagged_bps": 200
+      }
+    }
+  ],
+  "prose": "Fictional research fixture. Geocoding accuracy is at least 98 percent on the agreed sample. This file records no real commercial agreement."
+}

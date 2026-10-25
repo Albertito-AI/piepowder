@@ -1,0 +1,15 @@
+{
+  "schema_version": "piepowder.evidence/0.1",
+  "case_id": "geocode-ambiguous",
+  "items": [
+    {
+      "evidence_id": "sample-results",
+      "obligation_id": "geocode-delivery",
+      "path": "evidence/sample.json",
+      "sha256": "641363fa210a7677a290c8d988a226e6339c173b5634cbcf5ef30603abf00f88",
+      "kind": "geocode_sample",
+      "submitted_by": "seller",
+      "recorded_at": "2026-01-03T11:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": "piepowder.evidence/0.1",
+  "case_id": "geocode-conflicting",
+  "items": [
+    {
+      "evidence_id": "sample-results",
+      "obligation_id": "geocode-delivery",
+      "path": "evidence/sample.json",
+      "sha256": "641363fa210a7677a290c8d988a226e6339c173b5634cbcf5ef30603abf00f88",
+      "kind": "geocode_sample",
+      "submitted_by": "seller",
+      "recorded_at": "2026-01-03T11:00:00Z"
+    },
+    {
+      "evidence_id": "buyer-sample-results",
+      "obligation_id": "geocode-delivery",
+      "path": "evidence/buyer-sample.json",
+      "sha256": "72dd37f8a5ea69d5c9945a47e3623735a43aaddc5087e27636b6021bb7598f4c",
+      "kind": "geocode_sample",
+      "submitted_by": "buyer",
+      "recorded_at": "2026-01-03T11:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "piepowder"
+version = "0.1.0a1"
+description = "Offline contract prevention and evidence review for agent commerce"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+piepowder = "piepowder.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

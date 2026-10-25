@@ -1,0 +1,31 @@
+{
+  "schema_version": "piepowder.improvement_log/0.1",
+  "entries": [
+    {
+      "id": "P00",
+      "date": "2026-10-25",
+      "version": "0.1.0a1",
+      "stage": "private_internal_alpha",
+      "problem": "A research report needs an executable, bounded acceptance-and-evidence baseline before its broader judiciary claims can be tested.",
+      "change": "Implemented typed duties, one exact numerical acceptance profile, local evidence checks, reproducible reports and a non-binding procedural simulation; recorded current source corrections, rights, risks and evidence-gated milestones.",
+      "validation": {
+        "runtime": "CPython 3.12.14 on Linux",
+        "tests_passed": 53,
+        "tests_failed": 0,
+        "tests_skipped": 0,
+        "demonstration_cases": 6,
+        "hosted_ci": "See this pull request's actual checks and the dated project receipt",
+        "independent_validation": "NOT_PERFORMED",
+        "visual_browser_review": "BLOCKED_BY_LOCAL_FILE_URL_POLICY",
+        "formal_schema_validation": "NOT_RUN"
+      },
+      "observed_outcome": "An unspecified denominator remains UNKNOWN; explicit supported criteria produce exact pass/fail observations; missing, conflicting and contested evidence retain human review.",
+      "work_allowed": false,
+      "payment_authorised": false,
+      "revenue_evidence": "NONE",
+      "next_milestone": "P01",
+      "next_owner": "Existing Academic GitHub Development routine, within the shared active-work limit",
+      "next_gate": "A read-only Symbolon adapter must preserve the real source export and identifiers and cannot call a ledger or authorise a transaction."
+    }
+  ]
+}
