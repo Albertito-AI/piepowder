@@ -1,0 +1,7 @@
+{
+  "schema_version": "piepowder.geocode-sample/0.1",
+  "sample_size": 1000,
+  "correct": 972,
+  "incorrect": 11,
+  "flagged_unresolvable": 17
+}

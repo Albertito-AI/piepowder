@@ -1,0 +1,8 @@
+{
+  "schema_version": "piepowder.policy/0.1",
+  "policy_id": "offline-sandbox",
+  "version": "0.1",
+  "automatic_legal_effects": false,
+  "default_acceptance": "none",
+  "timeout_consequence": "human_review"
+}

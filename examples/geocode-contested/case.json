@@ -1,0 +1,8 @@
+{
+  "schema_version": "piepowder.case/0.1",
+  "case_id": "geocode-contested",
+  "contested_evidence_ids": [
+    "sample-results"
+  ],
+  "contested_obligation_ids": []
+}

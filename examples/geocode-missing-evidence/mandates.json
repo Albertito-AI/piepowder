@@ -1,0 +1,45 @@
+{
+  "schema_version": "piepowder.mandates/0.1",
+  "mandates": [
+    {
+      "mandate_id": "buyer-mandate",
+      "principal_party_id": "buyer",
+      "agent_id": "buyer-agent",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2027-01-01T00:00:00Z",
+      "revoked_at": null,
+      "currency": "USD",
+      "maximum_price_minor": 500000,
+      "allowed_counterparties": [
+        "seller"
+      ],
+      "allowed_actions": [
+        "form_contract",
+        "deliver",
+        "submit_evidence",
+        "file_dispute"
+      ],
+      "authority_basis": "recorded_claim"
+    },
+    {
+      "mandate_id": "seller-mandate",
+      "principal_party_id": "seller",
+      "agent_id": "seller-agent",
+      "valid_from": "2026-01-01T00:00:00Z",
+      "valid_until": "2027-01-01T00:00:00Z",
+      "revoked_at": null,
+      "currency": "USD",
+      "maximum_price_minor": 500000,
+      "allowed_counterparties": [
+        "buyer"
+      ],
+      "allowed_actions": [
+        "form_contract",
+        "deliver",
+        "submit_evidence",
+        "file_dispute"
+      ],
+      "authority_basis": "recorded_claim"
+    }
+  ]
+}
