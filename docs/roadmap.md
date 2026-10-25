@@ -4,22 +4,39 @@ Version 0.1.0a1 establishes the local review baseline. Milestones below depend o
 evidence and available capacity in the existing development routine; they are
 not promised dates. Preserve the shared one-active-non-incident-improvement limit.
 
-| ID | Next result | Acceptance evidence |
-| --- | --- | --- |
-| P01 | Read-only Symbolon review adapter and shared record profile | Pin the real export version; preserve all supported IDs/digests; reject unsupported or incomplete input; source remains unchanged and no transaction callback exists |
-| P02 | Independently labelled acceptance benchmark | At least 24 authored fixtures with expected outcomes fixed before checking; ambiguous and adverse cases; reviewer-usefulness method; all failures retained |
-| P03 | Principal, delegation and notice design | Separate identity, keys, revocation and legal authority; per-event scope checks; explicit unknown/disputed states; reviewed threat model before external intake |
-| P04 | Empirical ambiguity-linter experiment | Compare a rules baseline with one controlled optional model interface; labelled scenarios, false positives/negatives and correlated errors; explicit budget before any paid calls |
-| P05 | Human review and legal operating design | Versioned consent and procedure; real notice/extension/reopening; jurisdiction and AI/privacy applicability review; no claim of an institution or enforceable award without evidence |
-| P06 | One qualified paid validation workflow | Concrete recurring buyer problem, bounded scope/costs and baseline; bank-first controls; measured results and a documented continue/change/stop decision |
-| P07 | Reviewable public experimental release | Clean intended history, licence/branding decision, security channel, passing CI, reproducible demo and independent read-through; explicit publication authority |
+## Current launch order
 
-P01 and P02 should resolve the next product question: can an independent reviewer
-reconstruct an acceptance disagreement more reliably or quickly from the dossier?
-P03 is required before untrusted external cases are accepted. P04 follows a useful
-profile and a baseline, rather than being a prerequisite for the current product.
+P02's labelled benchmark and independent human first-use review, followed by the
+minimum P03 permitted-input/operator boundary, are the next launch dependencies.
+They test whether a new operator can reconstruct a supported acceptance result
+and understand its limits. These are open work, not completed validation claims.
+
+Problem discovery can discuss the standard scope before those gates are complete.
+Customer-specific work, case processing or access waits for the readiness gates
+and every commercial release control. Keep the initial product on the one
+supported geocode-count profile.
+
+| ID | Status and intended result | Acceptance evidence |
+| --- | --- | --- |
+| P02 | Open; first priority: labelled benchmark and independent human first use | At least 24 fictional fixtures with expected outcomes fixed before checking; good, adverse and unresolved cases; a human reviewer who did not author the implementation reconstructs results from the documented workflow; record assistance, confusion and all failures |
+| P03 | Open; minimum boundary before customer operation, fuller authority/notice design before any later service needing it | Accountable authorised operator; permitted minimised inputs; documented local trust, retention and handling limits; reviewed external-input threat model; explicit unknown/disputed states. Separate identity, keys, revocation and legal authority; formation-time comparisons do not establish per-event authority or valid notice |
+| P06 | Open; at most two bounded funded learning pilots, then a conditional reusable customer-run package | Concrete recurring problem; supported profile; accepted scope and release gates; comparable baseline; measured customer-run usefulness/support; repeat paid use of substantially the same package; documented continue/change/stop decision |
+| P01 | Open and unimplemented; conditional read-only Symbolon adapter | An evidenced need for a specific Symbolon export first. Then pin its real version, preserve supported IDs/digests, reject unsupported/incomplete input, leave the source unchanged and provide no transaction callback |
+| P04 | Open; conditional ambiguity-linter experiment | Useful profile and rules baseline first; controlled optional model interface only with explicit authority and budget; labelled cases, false positives/negatives and correlated errors |
+| P05 | Open; human review and legal operating design for any expanded dispute service | Versioned consent and procedure; real notice/extension/reopening; jurisdiction and AI/privacy applicability review; no institutional or enforceable-award claim without evidence |
+| P07 | Open; separately authorised public experimental release | Clean intended history, licence/branding decision, verified security channel, passing CI, reproducible demo and independent read-through; explicit publication authority |
+
+P01 is no longer a prerequisite for discovery or an otherwise ready existing-profile
+pilot. Reconsider it only when the proposed user workflow actually needs a pinned
+Symbolon export. No connector is claimed to be implemented. The changed priority
+is recorded in [decisions](decisions.md); [launch gates](launch-plan.md) and the
+[commercial validation plan](commercial-plan.md) define the rollout evidence.
+
+Recurring access is conditional on useful repeated operation, willingness to pay
+and bounded support. A funded learning pilot does not establish a recurring market,
+and an internal test run is not independent human first-use evidence.
 
 Human arbitration partnerships, binding machine determinations, public precedent,
 custody, live payments and multiple protocol adapters are later work. Each needs
-its own demand, authority, legal and technical gates. No live money is required
-to test the present acceptance and review hypothesis.
+its own demand, authority, legal and technical gates. Internal fictional validation
+needs no live payments. Customer work retains every commercial release gate.
