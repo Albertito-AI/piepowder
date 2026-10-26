@@ -35,6 +35,12 @@ evidenced workflow needs a pinned export. Existing-profile discovery and pilots
 do not require an internal ecosystem integration. New profiles require their own
 bounded approval and a repeatable need.
 
+The prepared [first-use facilitator guide](../benchmarks/p02-facilitator-guide.md)
+separates participant materials from expected answers. Apply the
+[local operator procedure](operator-readiness.md) before a named exercise and
+retain actual evidence privately. Preparation alone does not satisfy either
+independent human first use or the operation-specific P03 checks.
+
 ## Experiment and decision record
 
 Set the question and expected observation before each experiment. Record the

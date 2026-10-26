@@ -1,5 +1,13 @@
 # P02: human first-use reconstruction protocol (not yet run)
 
+**Facilitator document: contains an answer key.** For a prepared session use the
+[facilitator guide](p02-facilitator-guide.md). Give the participant only the
+[participant brief](p02-participant-brief.md), its specified fictional inputs and
+the [blank response record](p02-participant-response.json). Do not distribute this
+protocol or the expected labels before the original responses are retained.
+Apply the [local operator procedure](../docs/operator-readiness.md) to the actual
+exercise environment. The prepared kit does not record a completed human session.
+
 **Status on 26 October 2026: internal preparation only.** No participant, independent review, human reconstruction time, benefit, legal assessment or demand is represented by this file. These fictional scenarios describe recorded counts, not real geocoding accuracy. The prototype never authorises work, money or a legal disposition.
 
 ## Before involving a participant

@@ -79,6 +79,33 @@
       "next_milestone": "P02 human first use, then minimum P03 before any customer operation",
       "next_owner": "Academic GitHub Development for engineering validation; GitHub Adoption for private launch index/register and independent-first-use coordination",
       "next_gate": "Passing exact-version CI and a recorded non-implementing human reconstruction; no customer operation or payment is released."
+    },
+    {
+      "id": "P02-FIRST-USE-HANDOFF-20261026",
+      "date": "2026-10-26",
+      "stage": "internal_first_use_preparation",
+      "problem": "The first-use protocol contains its answer key and lacks a separate participant packet; the actual operator/input/environment checks need an actionable private record before a named exercise.",
+      "baseline": "Main 1ebdaf1b27c1ee7f3394bc4f973b5cba62437dc9; P02 internal engineering increment merged in PR 10 with 27 labelled scenarios and 56 suite tests. No human first use has occurred.",
+      "change": "Separated participant brief and blank response template from facilitator-only cards, key and preparation recipe; documented a fixed descriptive session and a minimum local operator/input/retention procedure; dated the superseded schema-validation baseline.",
+      "validation": {
+        "review": "Complete changed-file and independent AI-agent review; no independent human review is claimed.",
+        "recipe_preflight": "Exact facilitator Python recipe executed in a temporary workspace: S1 HUMAN_REVIEW/NOT_SATISFIED; S2 HUMAN_REVIEW/UNKNOWN; neutral linked case identifiers; all work/payment flags false.",
+        "label_manifest_sha256": "8c24436006d5b52d01669b9a914687ba7872ce1fccfdadf37d93160aa95fd169",
+        "response_template": "JSON parsed; actual observations remain null/NOT_PERFORMED/NOT_MEASURED.",
+        "runtime_behaviour_changed": false,
+        "hosted_ci": "Inspect this documentation pull request checks and exact merged commit; no job result is presumed here.",
+        "independent_human_first_use": "NOT_PERFORMED",
+        "actual_environment_and_permission_review": "NOT_PERFORMED",
+        "workflow_efficiency": "NOT_MEASURED"
+      },
+      "observed_outcome": "Reviewable internal first-use materials and operator procedure; no participant contact, packet issue, observed human result, P03 closure, customer release or revenue.",
+      "decision": "RETAIN_PREPARATION_PENDING_ACTUAL_HUMAN_AND_OPERATION_EVIDENCE",
+      "work_allowed": false,
+      "payment_authorised": false,
+      "next_milestone": "P02 actual human reconstruction and operation-specific minimum P03 evidence",
+      "next_owner": "GitHub Adoption coordinates the private exercise and integrates this engineering handoff into the sole private index/register; Development handles any evidenced defect.",
+      "next_checkpoint": "2026-11-01",
+      "next_gate": "Resolve participant, exact disclosure/handling permission and actual controlled environment; freeze kit/source/packet bytes; retain original responses, coaching and all failures. P02 and P03 remain open. Apply every separate commercial release gate before customer work."
     }
   ]
 }

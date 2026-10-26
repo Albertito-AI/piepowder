@@ -13,7 +13,15 @@ These standalone JSON Schema 2020-12 documents describe the supported v0.1 input
 
 All five fixed artifacts are required by `analyse_case`. The contract schema deliberately allows omitted or null acceptance tests, assessors, triggers, deadlines and mandate references. It also allows an explicitly unspecified denominator. These represent incomplete drafting that the compiler must report, rather than silently supply. An empty mandate list or evidence list is representable and cannot make the associated missing authority or acceptance condition pass. Unsupported acceptance and assessor kinds fall outside the authoring schema; the runtime can still identify such inputs as unsupported and route them for review.
 
-Validation status for this release: all six schema documents were parsed as JSON and their field names and required/optional boundaries were reviewed against the runtime and the six committed fictional cases. Formal validation against the JSON Schema 2020-12 meta-schema was **not run** because no JSON Schema validator was installed in the checked Python environment. No validator was installed for this task. The field consistency review is not a substitute for meta-schema validation or a claim that an independent conforming validator has checked the fixtures.
+Original alpha baseline, 25 October 2026: all six schema documents were parsed as JSON and their field names and required/optional boundaries were reviewed against the runtime and the six committed fictional cases. Formal validation against the JSON Schema 2020-12 meta-schema was **not run at that stage** because no JSON Schema validator was installed in the checked Python environment. No validator was installed for that original task. The field consistency review is not a substitute for meta-schema validation.
+
+Subsequent P02 evidence, 26 October 2026: the optional development-only
+`jsonschema==4.26.0` job checked all six Draft 2020-12 schema documents and one
+fictional instance per schema. The [post-merge schema run](https://github.com/Albertito-AI/piepowder/actions/runs/40249690726)
+passed for main `1ebdaf1b27c1ee7f3394bc4f973b5cba62437dc9`.
+See the [validation record](../docs/validation.md) for the retained first-run
+fixture failures and corrected engineering result. This updates the historical
+schema-check status; it is not independent human use or external data validation.
 
 ## The runtime remains authoritative for supported checks
 

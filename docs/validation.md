@@ -90,3 +90,33 @@ The distinct development-only `scripts/p02_validate_schemas.py` checks all six a
 The first hosted run at [40249375608](https://github.com/Albertito-AI/piepowder/actions/runs/40249375608) **failed** two of the 27 declared cases: A01 and U04 had sample-count fields inconsistent with their input mutations, returning `SAMPLE_TOTAL_MISMATCH`. The benchmark retained both failures rather than adjusting the expected output to the engine. Corrected the **input fixture** counts (A01 sample size 10,000; U04 sample size 999), leaving their independently declared expected quality outcomes unchanged.
 
 The follow-up [suite run 40249466456](https://github.com/Albertito-AI/piepowder/actions/runs/40249466456) passed 56 tests on each of Python 3.10, 3.12 and 3.14, with 27/27 labelled cases passing. The [separate schema job 40249466481](https://github.com/Albertito-AI/piepowder/actions/runs/40249466481) passed the six authoring meta-schema checks and one example per schema using `jsonschema==4.26.0`. These statements are tied to the tested branch head; subsequent edits require fresh CI. No independent human first-use measurement, empirical effectiveness or live product release resulted.
+
+## First-use handoff preparation, 26 October 2026
+
+At merged main `1ebdaf1b27c1ee7f3394bc4f973b5cba62437dc9`, the
+[post-merge suite](https://github.com/Albertito-AI/piepowder/actions/runs/40249692330)
+and [schema job](https://github.com/Albertito-AI/piepowder/actions/runs/40249690726)
+both passed. This handoff adds separate participant materials, a withheld
+facilitator guide and the [local operator procedure](operator-readiness.md).
+It changes no product runtime, fixture labels or existing test expectations.
+
+The exact facilitator preparation recipe was exercised once in a temporary
+workspace on CPython 3.12.14 / Linux x86_64 (glibc 2.39), with no failed attempts.
+The fenced Python recipe was parsed and executed unchanged; its transcript is
+retained in the internal review conversation, while temporary output was removed
+on exit. This was an AI-assisted preparation check. S1, using A02 with neutral linked case identifiers, produced
+`HUMAN_REVIEW` / `NOT_SATISFIED`. S2, using U08, produced `HUMAN_REVIEW` /
+`UNKNOWN`. Both retained false work/payment flags. The label-manifest SHA-256
+matched `8c24436006d5b52d01669b9a914687ba7872ce1fccfdadf37d93160aa95fd169`.
+The response template parsed as JSON and retains unobserved fields as null or
+explicitly unperformed. Numerical keys, relative links, participant/key
+separation and the distinction between implemented controls and human handling
+responsibilities were reviewed. A separate AI-agent review found no blocking
+defect; this is internal preparation review, not independent human use.
+
+The exact private session packet, actual participant and permission, local
+environment record, observed answers, assistance and whole-workflow time remain
+unrecorded. No packet was issued. The manual-first cards differ in difficulty
+and test conditions; they cannot establish a causal efficiency gain. P02 human
+first use, operation-specific minimum P03 evidence and all customer-release
+gates remain open. Refer to this change's actual CI checks for its own head.
