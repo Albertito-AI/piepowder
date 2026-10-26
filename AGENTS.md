@@ -1,7 +1,8 @@
 # Working on Piepowder
 
 Read the current README, roadmap, decisions, validation and security record before
-editing. This is a private experimental project. Keep current visibility and rights.
+editing. This is a public experimental project. Preserve the current rights position
+and the accurately stated research scope.
 Use one bounded improvement with a stated observed problem and an acceptance check.
 
 Keep all committed examples fictional. Never import customer correspondence,
@@ -21,3 +22,9 @@ independent use, legal clearance, adoption or revenue from an internal test resu
 Use the existing Academic GitHub Development owner and shared active-work limit;
 do not create a parallel scheduler. Keep material improvements in the improvement log.
 Commercial prospect sending authority for RegNav does not extend to Piepowder outreach.
+
+Support the owner's invitation to co-creators through original proposals, technical
+feedback and agreed contributions. Resolve external contribution scope and permission
+under RIGHTS.md before accepting code or documentation. Credit actual contributions.
+Any funded collaboration needs agreed roles, deliverables, IP and payment terms;
+community participation creates no automatic revenue-sharing arrangement.

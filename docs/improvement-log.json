@@ -106,6 +106,27 @@
       "next_owner": "GitHub Adoption coordinates the private exercise and integrates this engineering handoff into the sole private index/register; Development handles any evidenced defect.",
       "next_checkpoint": "2026-11-01",
       "next_gate": "Resolve participant, exact disclosure/handling permission and actual controlled environment; freeze kit/source/packet bytes; retain original responses, coaching and all failures. P02 and P03 remain open. Apply every separate commercial release gate before customer work."
+    },
+    {
+      "id": "PUBLIC-COMMUNITY-20261026",
+      "date": "2026-10-26",
+      "version": "0.1.0a1",
+      "stage": "public_experimental_repository",
+      "problem": "The owner authorised public development and co-creator participation; current documentation still described a private prototype.",
+      "change": "Published the repository, corrected current visibility wording, added contributor entry points and attribution/funded-collaboration guidance, preserved reserved rights and enabled private vulnerability reporting.",
+      "validation": {
+        "visibility": "Verified public in repository settings and GitHub API",
+        "documentation_review": "Complete changed-file review; original grants and restrictions preserved",
+        "runtime_behaviour_changed": false,
+        "engine_tests": "NOT_RERUN_DOCUMENTATION_ONLY",
+        "private_vulnerability_reporting": "Enabled and verified in repository settings",
+        "independent_human_first_use": "NOT_PERFORMED"
+      },
+      "observed_outcome": "Public experimental code with contribution guidance and a confidential security-reporting route. No formal production release, new contributor, customer or funded assignment is established.",
+      "decision": "CONTINUE_PUBLIC_DEVELOPMENT",
+      "next_milestone": "P02 actual human reconstruction and operation-specific minimum P03 evidence",
+      "next_owner": "Academic GitHub Development for engineering; GitHub Adoption for onboarding and private readiness tracking",
+      "next_gate": "Record actual independent first use and operation-specific evidence. Agree contribution rights and any funded-work terms before accepting the corresponding work."
     }
   ]
 }

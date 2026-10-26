@@ -1,6 +1,6 @@
 # Rights and release status
 
-This is Albert Tan Sin Hon's private working project. Rights are reserved to the
+This public experimental repository is Albert Tan Sin Hon's working project. Rights are reserved to the
 extent available under applicable law. No public licence, redistribution right,
 commercial execution permission or ownership transfer is granted by this repository.
 
@@ -9,7 +9,7 @@ governance strategy. Those are proposals, not licences applied to this build.
 Any later licence must identify the material covered and preserve third-party rights.
 The separate Symbolon repository's existing licence is unaffected.
 
-The owner and authorised development workflow may build and test this private
+The owner and authorised development workflow may build and test this
 prototype. External evaluation and customer delivery require the owner's applicable
 written terms and release authority. The fictional examples create no agreement,
 payment entitlement, institutional affiliation or operative legal determination.

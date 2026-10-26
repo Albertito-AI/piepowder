@@ -37,6 +37,6 @@ are recorded claims, not proof of legally sufficient notice.
 
 Use only synthetic or expressly permitted non-sensitive material during internal
 development. Do not place vulnerability details or private evidence in public
-issues. Report a vulnerability privately to the repository owner through an
-established private channel. A dedicated confidential reporting route must be
-verified before public release; this file does not claim that one is configured.
+issues. Private vulnerability reporting is enabled. Use the repository's Security
+tab and Report a vulnerability to send a reproducible security issue privately.
+Include the exact commit, environment, smallest fictional case and expected result.

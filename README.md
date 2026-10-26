@@ -2,7 +2,7 @@
 
 **Make acceptance criteria explicit. Preserve the evidence. Show what still needs a human decision.**
 
-Piepowder is a private research prototype for reviewing contracts and evidence
+Piepowder is a public experimental research prototype for reviewing contracts and evidence
 in commerce between agents. Version **0.1.0a1** provides a working local engine,
 a procedural simulator and a self-contained viewer. All shipped cases are fictional.
 
@@ -13,7 +13,7 @@ its prevention-first idea through one narrow problem: two parties can agree on
 ## See it work
 
 Python 3.10 or later; no runtime or test dependencies outside the standard library.
-Run from an authorised checkout of this private repository:
+Read [RIGHTS.md](RIGHTS.md) before use. From an authorised checkout:
 
 ```bash
 PYTHONPATH=src python -m piepowder demo --output artifacts/first-run
@@ -107,6 +107,25 @@ The digest in the same demonstration directory is a convenience, not an independ
 The [integration design](docs/integration.md) defines a proposed read-only interface.
 No connector between the three projects is claimed to be implemented in this version.
 
+## Help develop Piepowder
+
+We welcome collaborators who want to make acceptance criteria and evidence easier
+to inspect. Start with an original proposal or a reproducible problem in
+[Issues](https://github.com/Albertito-AI/piepowder/issues). Useful starting points
+include the fictional benchmark and first-use instructions, clearer explanations
+of unresolved findings, and the local operator/input procedure.
+
+Read [CONTRIBUTING.md](CONTRIBUTING.md) and [RIGHTS.md](RIGHTS.md) before implementing
+or submitting code or documentation. Agree the contribution scope and applicable
+permission with the maintainer first. Accepted contributions will be credited in
+the relevant pull request or release notes using the contributor's preferred name
+or GitHub handle.
+
+Where funded work becomes available, collaborators can discuss paid development,
+research, documentation or support. Roles, deliverables, intellectual-property
+arrangements and payment terms must be agreed in writing before that work begins.
+Earnings and revenue-sharing arrangements depend on a specific agreement.
+
 ## Development record
 
 - [Architecture and supported data language](docs/architecture.md)
@@ -121,6 +140,6 @@ No connector between the three projects is claimed to be implemented in this ver
 - [Security](SECURITY.md), [governance](GOVERNANCE.md) and [rights](RIGHTS.md)
 
 Project owner: **Albert Tan Sin Hon**, GitHub `Albertito-AI`.
-Piepowder remains a working name. Public release, branding clearance and an open
-licence are separate decisions. Customer work follows the owner's verification,
+Piepowder remains a working name. Repository visibility is public; the reserved
+rights in RIGHTS.md continue to apply. Customer work follows the owner's verification,
 agreement, actual bank-receipt and scoped release requirements.

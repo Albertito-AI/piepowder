@@ -1,8 +1,9 @@
-# Governance during the private prototype
+# Governance of the experimental project
 
 Albert Tan Sin Hon owns the project and its commercial decisions. The development
 workflow may make ordinary reviewed implementation improvements under his standing
-authority. It must preserve private access, the rights position and commercial gates.
+authority. It must preserve the public experimental scope, the rights position
+and commercial gates.
 
 Piepowder and Symbolon have separate repositories and responsibilities. Separate
 repositories do not create independent institutions, separate legal entities or
