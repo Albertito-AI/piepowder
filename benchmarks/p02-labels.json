@@ -225,6 +225,12 @@
         {
           "file": "evidence/sample.json",
           "op": "set",
+          "pointer": "/sample_size",
+          "value": 10000
+        },
+        {
+          "file": "evidence/sample.json",
+          "op": "set",
           "pointer": "/correct",
           "value": 9799
         },
@@ -475,6 +481,12 @@
         ]
       },
       "edits": [
+        {
+          "file": "evidence/sample.json",
+          "op": "set",
+          "pointer": "/sample_size",
+          "value": 999
+        },
         {
           "file": "evidence/sample.json",
           "op": "set",
