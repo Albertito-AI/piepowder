@@ -44,6 +44,35 @@
       "next_milestone": "P02 and minimum P03",
       "next_owner": "Academic GitHub Development within shared work limit; private operational tracking by GitHub Adoption",
       "next_gate": "Prelabelled benchmark, independent human reconstruction evidence and minimum permitted-input/operator boundary before customer operation; all commercial gates still required."
+    },
+    {
+      "id": "P02-INTERNAL-20261026",
+      "date": "2026-10-26",
+      "version": "0.1.0a1",
+      "stage": "engineering_branch_pending_ci",
+      "problem": "Six demonstration cases cannot exercise enough stated boundary, adverse, unknown and adversarial acceptance situations for a responsible first-use exercise.",
+      "baseline": "Main d3d5cc0f1c1a6a51b65a7266d19061c3653da5be; original 53 tests and six demonstration scenarios; earlier outcomes belong to earlier versions.",
+      "change": "Prepared 27 distinct declarative fictional variations with expected outcomes fixed in benchmarks/p02-labels.json; isolated materialisation and observed-result comparison; optional formal Draft 2020-12 schema check; human reconstruction protocol.",
+      "validation": {
+        "labelled_cases": 27,
+        "case_groups": {
+          "good": 6,
+          "adverse": 6,
+          "unknown": 9,
+          "adversarial": 6
+        },
+        "local_execution": "NOT_RUN_BEFORE_PR",
+        "hosted_execution": "PENDING",
+        "independent_human_first_use": "NOT_PERFORMED",
+        "efficiency": "NOT_MEASURED"
+      },
+      "observed_outcome": "Prelabelled materials and checks have been prepared as code; test outcomes and field performance require subsequent verified execution.",
+      "decision": "VERIFY_WITH_CI_THEN_REVIEW",
+      "work_allowed": false,
+      "payment_authorised": false,
+      "next_milestone": "P02 human first use, then minimum P03 before any customer operation",
+      "next_owner": "Academic GitHub Development for engineering validation; GitHub Adoption for private launch index/register and independent-first-use coordination",
+      "next_gate": "Passing exact-version CI and a recorded non-implementing human reconstruction; no customer operation or payment is released."
     }
   ]
 }

@@ -74,3 +74,13 @@ itself evidence that a hosted run passed.
 Run the narrow checks relevant to each subsequent change and retain failures.
 Use the current engineering state and observed results rather than extrapolating
 production readiness from this initial suite.
+
+## P02 prelabelled internal benchmark increment, 26 October 2026
+
+An additional `benchmarks/p02-labels.json` declares 27 distinct fictional variants **before** the benchmark runner evaluates them. They are materialised into separate temporary directories using the existing fictional example files. Categories: six favourable, six adverse, nine unknown and six adversarial. The declared labels contain the expected overall and quality state and selected reason codes. The test does not generate labels from its observations, and retains every failure.
+
+Run the standard-library benchmark using `PYTHONPATH=src python -m benchmarks.p02_benchmark` and the added tests using the existing suite command. The benchmark is explicitly internal. It does not authenticate source counts, sample-selection methods, participants, buyer acceptance or the general usefulness of this product.
+
+The distinct development-only `scripts/p02_validate_schemas.py` checks all six authoring documents against the Draft 2020-12 meta-schema and one known fictional instance per schema using `jsonschema==4.26.0`. A dedicated CI job installs that optional validator; the product runtime and ordinary tests retain no third-party dependency. Formal schema validation is distinct from the runtime's linked-record checks, lexically strict integers and safe filesystem handling.
+
+**Execution evidence:** inspect the actual associated pull-request workflow runs. This entry documents the scope of the increment and does not presume a passed job before its result is observed. The independent human reconstruction protocol is prepared in `benchmarks/p02-human-review.md`; its execution and user-effort outcomes are **NOT_PERFORMED/UNKNOWN**. Minimum P03 operator/input controls and any customer release remain separate open gates.

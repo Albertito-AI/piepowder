@@ -40,3 +40,9 @@ Human arbitration partnerships, binding machine determinations, public precedent
 custody, live payments and multiple protocol adapters are later work. Each needs
 its own demand, authority, legal and technical gates. Internal fictional validation
 needs no live payments. Customer work retains every commercial release gate.
+
+## P02 engineering increment prepared on 26 October 2026
+
+A versioned internal benchmark branch now contains 27 distinct prelabelled fictional cases, materialised separately from the six shipped demonstrations. It tests exact threshold edges, contradictory or missing evidence, contested rules, formation-time recorded mandate deficiencies and inert malicious instructions. Tests check declared expected states rather than treating generated output as its own answer key. A separate optional Draft 2020-12 authoring-schema validation step and a blank independent human reconstruction protocol are included.
+
+**Status:** engineering change prepared for verified CI and review. Independent human first use and measured whole-workflow usefulness remain outstanding. P03's minimum accountable local operator and permitted-input boundary remains a separate prerequisite before customer operation. P01 is conditional on an evidenced pinned Symbolon export need. The technical and commercial release gates are not relaxed.

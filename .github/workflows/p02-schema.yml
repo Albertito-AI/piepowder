@@ -1,0 +1,19 @@
+name: P02 authoring schema validation
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  schema:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Install isolated development-only Draft 2020-12 validator
+        run: python -m pip install 'jsonschema==4.26.0'
+      - name: Check authoring schemas and one known fictional instance per schema
+        run: python scripts/p02_validate_schemas.py
