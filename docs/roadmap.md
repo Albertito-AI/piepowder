@@ -46,3 +46,17 @@ needs no live payments. Customer work retains every commercial release gate.
 A versioned internal benchmark branch now contains 27 distinct prelabelled fictional cases, materialised separately from the six shipped demonstrations. It tests exact threshold edges, contradictory or missing evidence, contested rules, formation-time recorded mandate deficiencies and inert malicious instructions. Tests check declared expected states rather than treating generated output as its own answer key. A separate optional Draft 2020-12 authoring-schema validation step and a blank independent human reconstruction protocol are included.
 
 **Status:** initial case-fixture defect repaired and all 27 fictional cases subsequently passed hosted engineering checks. The independent human first use and measured whole-workflow usefulness remain outstanding. P03's minimum accountable local operator and permitted-input boundary remains a separate prerequisite before customer operation. P01 is conditional on an evidenced pinned Symbolon export need. The technical and commercial release gates are not relaxed.
+
+## First-use handoff prepared on 26 October 2026
+
+The [facilitator guide](../benchmarks/p02-facilitator-guide.md), separate participant
+brief and blank response record make a bounded fictional first-use exercise
+reviewable. The [operator procedure](operator-readiness.md) specifies the actual
+person, permission, input, environment and retention evidence required for that
+exercise. These are preparation artifacts. No participant observation, human
+efficiency result, customer access or P03 closure is recorded.
+
+GitHub Adoption coordinates the named human exercise and integrates the engineering
+handoff into the existing private launch register. Preserve the original first
+readiness checkpoint of 1 November 2026 and record any specific blocker. Both P02
+and P03 remain open until their required actual evidence exists.

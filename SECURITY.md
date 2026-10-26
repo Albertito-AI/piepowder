@@ -4,6 +4,11 @@ Version 0.1.0a1 is an offline research prototype for local fictional cases.
 The person controlling the computer and the case directory is a trusted local
 administrator. The program is not a network service or a secure multi-tenant vault.
 
+The [local operator procedure](docs/operator-readiness.md) makes the permitted
+fictional first-use exercise and required private evidence record explicit. It
+documents human handling responsibilities; it adds no runtime enforcement and
+does not close the customer-readiness or wider P03 trust gates.
+
 The parser bounds JSON size, depth, item counts and numeric range. It rejects
 duplicate object keys, non-integer JSON numbers and unsupported fields. Evidence
 must use a portable relative path under the case's `evidence/` directory. The reader
