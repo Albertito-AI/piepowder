@@ -20,7 +20,7 @@ adoption, demand, delivery or revenue. Keep unknown costs and the owner's actual
 human effort unknown until recorded. Report substantive progress or changed
 blockers through the existing task result; no-change runs can remain quiet.
 
-Maintain `docs/improvement-log.json` and the existing private project index.
+Maintain `docs/improvement-log.json` in the engineering lane. GitHub Adoption alone writes the private project index and nonfinancial launch register; send its owner verified technical handoffs rather than editing those files concurrently.
 Repository documentation is the current engineering record; dated Drive snapshots
 retain their own revision. Customer, identity, payment and private negotiation
 records remain outside Git. Global retains sole financial-workbook ownership.
