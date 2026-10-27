@@ -132,7 +132,7 @@
       "id": "P03-EMPTY-EVIDENCE-20261027",
       "date": "2026-10-27",
       "version": "0.1.0a1",
-      "stage": "reviewed_branch_change_pending_exact_head_ci",
+      "stage": "branch_engineering_verified_pending_merge",
       "problem": "The empty evidence set previously satisfied the BYTE_MATCH set-subset check even though no source file was observed.",
       "baseline": "Public main 0c13abb3ebe13aec028a1a4ba52d0e986f9d32db; verify_evidence(..., manifest with items=[]) could return BYTE_MATCH, though quality analysis retained UNKNOWN.",
       "source_concept": "Absence of supplied evidence is a coverage condition; it must not be represented as a completed verification or failed performance. This is a bounded implementation of the project's existing evidence/status distinction, not a new legal rule.",
@@ -143,14 +143,19 @@
         "test": "tests/test_core.py::test_empty_evidence_manifest_is_unavailable_not_byte_matched"
       },
       "verification": {
-        "exact_head_ci": "PENDING",
+        "exact_head_ci": "PASS at original reviewed patch head eba91bb9f9c54fe5a5dce24bc9982cea10ccf8d9; CI to be rechecked after this documentation receipt",
         "local_full_suite": "NOT_RUN",
         "independent_human_first_use": "NOT_PERFORMED",
         "operator_input_permission": "NOT_ESTABLISHED",
-        "causal_efficiency": "NOT_MEASURED"
+        "causal_efficiency": "NOT_MEASURED",
+        "tests": "57 tests passed on each of Python 3.10, 3.12 and 3.14; new empty-evidence regression included",
+        "suite_url": "https://github.com/Albertito-AI/piepowder/actions/runs/40427873775",
+        "schema_validation": "Six Draft 2020-12 schemas and example instances validated",
+        "schema_url": "https://github.com/Albertito-AI/piepowder/actions/runs/40427873784",
+        "demo_and_docket": "Recorded GitHub CI jobs succeeded on 3.10, 3.12 and 3.14"
       },
-      "observed_outcome": "Regression and correction committed to an isolated development branch; merge and CI are separately required.",
-      "decision": "PENDING_CI_AND_DIFF_REVIEW",
+      "observed_outcome": "One targeted misleading status corrected on the branch, tested by 57 passing regression tests across three hosted Python versions; authoring schema job passed. No independent human or actual customer operation.",
+      "decision": "RETAIN_AFTER_EXACT_HEAD_CI_RECHECK",
       "work_allowed": false,
       "payment_authorised": false,
       "next_milestone": "P02 independent human reconstruction and operation-specific minimum P03 checks",
