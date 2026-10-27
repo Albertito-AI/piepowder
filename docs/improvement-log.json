@@ -127,6 +127,35 @@
       "next_milestone": "P02 actual human reconstruction and operation-specific minimum P03 evidence",
       "next_owner": "Academic GitHub Development for engineering; GitHub Adoption for onboarding and private readiness tracking",
       "next_gate": "Record actual independent first use and operation-specific evidence. Agree contribution rights and any funded-work terms before accepting the corresponding work."
+    },
+    {
+      "id": "P03-EMPTY-EVIDENCE-20261027",
+      "date": "2026-10-27",
+      "version": "0.1.0a1",
+      "stage": "reviewed_branch_change_pending_exact_head_ci",
+      "problem": "The empty evidence set previously satisfied the BYTE_MATCH set-subset check even though no source file was observed.",
+      "baseline": "Public main 0c13abb3ebe13aec028a1a4ba52d0e986f9d32db; verify_evidence(..., manifest with items=[]) could return BYTE_MATCH, though quality analysis retained UNKNOWN.",
+      "source_concept": "Absence of supplied evidence is a coverage condition; it must not be represented as a completed verification or failed performance. This is a bounded implementation of the project's existing evidence/status distinction, not a new legal rule.",
+      "change": "For the otherwise valid zero-item manifest, return UNAVAILABLE with a review-level NO_EVIDENCE_ITEMS notice; preserve the non-empty BYTE_MATCH behaviour and independent work/payment restrictions.",
+      "evidence": {
+        "code_commit": "46b5c38c5f8270ad49c3b95ff2fe7194e5770c75",
+        "test_commit": "c165d8a6aadfc0bd4ffc4b0cc7093668b38a5e80",
+        "test": "tests/test_core.py::test_empty_evidence_manifest_is_unavailable_not_byte_matched"
+      },
+      "verification": {
+        "exact_head_ci": "PENDING",
+        "local_full_suite": "NOT_RUN",
+        "independent_human_first_use": "NOT_PERFORMED",
+        "operator_input_permission": "NOT_ESTABLISHED",
+        "causal_efficiency": "NOT_MEASURED"
+      },
+      "observed_outcome": "Regression and correction committed to an isolated development branch; merge and CI are separately required.",
+      "decision": "PENDING_CI_AND_DIFF_REVIEW",
+      "work_allowed": false,
+      "payment_authorised": false,
+      "next_milestone": "P02 independent human reconstruction and operation-specific minimum P03 checks",
+      "next_owner": "GitHub Adoption for private exercise and register; Academic GitHub Development for any discovered technical defect",
+      "next_gate": "Verify exact-head tests, merge only after review, and retain P02/P03 customer-operation HOLD until actual person/permission/environment evidence."
     }
   ]
 }
