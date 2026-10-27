@@ -179,5 +179,14 @@ def verify_evidence(case_dir: Path, manifest: dict) -> dict:
             item["byte_status"] = "REJECTED"
             findings.append(issue("EVIDENCE_UNREADABLE_OR_UNSAFE", path, "The local file cannot be read safely within the supported limits; no performance conclusion is drawn."))
     states = {item["byte_status"] for item in items}
-    status = "BYTE_MATCH" if states <= {"MATCH"} else "UNAVAILABLE" if states <= {"MATCH", "UNAVAILABLE"} else "INTEGRITY_REVIEW"
+    if not items:
+        findings.append(issue(
+            "NO_EVIDENCE_ITEMS", "evidence.items",
+            "No evidence items were supplied; a source-byte match cannot be established."
+        ))
+    # An empty collection vacuously satisfies a set-subset check, but must never
+    # be reported as BYTE_MATCH. Missing evidence is unresolved, not performance failure.
+    status = ("UNAVAILABLE" if not items else
+              "BYTE_MATCH" if states <= {"MATCH"} else
+              "UNAVAILABLE" if states <= {"MATCH", "UNAVAILABLE"} else "INTEGRITY_REVIEW")
     return {"status": status, "findings": findings, "items": items, "authenticity": "UNVERIFIED"}
