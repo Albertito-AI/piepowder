@@ -120,3 +120,22 @@ unrecorded. No packet was issued. The manual-first cards differ in difficulty
 and test conditions; they cannot establish a causal efficiency gain. P02 human
 first use, operation-specific minimum P03 evidence and all customer-release
 gates remain open. Refer to this change's actual CI checks for its own head.
+
+## Empty evidence-manifest regression, 27 October 2026
+
+Targeted issue: before the correction, the expression checking whether all
+observed byte states were `MATCH` also returned true for a manifest containing
+no items. The aggregate evidence status could therefore say `BYTE_MATCH` when
+there were no evidence bytes to compare. This concerned report integrity, not
+proof of a wrong underlying geocoding result.
+
+Added a focused regression that tests the unchanged non-empty case against an
+empty manifest. The corrected empty-manifest result is `UNAVAILABLE`, with
+`NO_EVIDENCE_ITEMS` at review severity. The complete analysis remains
+`HUMAN_REVIEW`, its quality check stays `UNKNOWN`, and work/payment flags
+remain false. Existing input files and evidence hashes are not rewritten.
+
+The regression is part of the ordinary `unittest` suite. Its CI outcome must be
+verified for the exact change head before merge. This is an internal engineering
+integrity correction, not independent user validation, source authentication,
+P03 operational clearance or a measured efficiency improvement.
