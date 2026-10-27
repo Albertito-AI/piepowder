@@ -139,3 +139,12 @@ The regression is part of the ordinary `unittest` suite. Its CI outcome must be
 verified for the exact change head before merge. This is an internal engineering
 integrity correction, not independent user validation, source authentication,
 P03 operational clearance or a measured efficiency improvement.
+
+**Initial reviewed patch head:** `eba91bb9f9c54fe5a5dce24bc9982cea10ccf8d9`.
+The [hosted suite](https://github.com/Albertito-AI/piepowder/actions/runs/40427873775)
+passed 57 tests on each of Python 3.10, 3.12 and 3.14, including the new
+empty-evidence regression, six example reproductions and docket replay.
+The independent [authoring-schema job](https://github.com/Albertito-AI/piepowder/actions/runs/40427873784)
+validated all six Draft 2020-12 schemas and known fictional instances. These
+are branch-head engineering checks; the final head and post-merge CI still require
+verification. No external human-use or customer-authorisation gate was closed.
