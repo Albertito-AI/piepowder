@@ -47,6 +47,20 @@ A versioned internal benchmark branch now contains 27 distinct prelabelled ficti
 
 **Status:** initial case-fixture defect repaired and all 27 fictional cases subsequently passed hosted engineering checks. The independent human first use and measured whole-workflow usefulness remain outstanding. P03's minimum accountable local operator and permitted-input boundary remains a separate prerequisite before customer operation. P01 is conditional on an evidenced pinned Symbolon export need. The technical and commercial release gates are not relaxed.
 
+## P03-path input integrity correction, 27 October 2026
+
+A bounded regression addresses the empty-manifest case: an evidence manifest
+containing zero items formerly produced the misleading aggregate `BYTE_MATCH`
+status because the empty set satisfied a subset comparison. The corrected
+result is `UNAVAILABLE` with a review notice. An empty evidence inventory is
+missing evidence, not failed service performance or authenticated matching bytes.
+The normal non-empty, valid source observation remains unchanged.
+
+This is a local data-handling safeguard supporting P03 and the P02 participant
+workflow. It does not complete the operation-specific operator, permission,
+retention or independent human-use gates, nor does it enable customer work,
+legal conclusions or payment.
+
 ## First-use handoff prepared on 26 October 2026
 
 The [facilitator guide](../benchmarks/p02-facilitator-guide.md), separate participant

@@ -261,6 +261,30 @@ class CoreTests(unittest.TestCase):
         self.assertEqual(result["status"], "HUMAN_REVIEW")
         self.assertEqual(self.quality(result)["result"], "UNKNOWN")
 
+    def test_empty_evidence_manifest_is_unavailable_not_byte_matched(self):
+        # The empty set is a subset of {MATCH}; it does not prove any bytes matched.
+        original = self.read("evidence.json")
+        self.assertEqual(verify_evidence(self.case, original)["status"], "BYTE_MATCH")
+        empty = copy.deepcopy(original)
+        empty["items"] = []
+        observed = verify_evidence(self.case, empty)
+        self.assertEqual(observed["status"], "UNAVAILABLE")
+        self.assertEqual(observed["items"], [])
+        self.assertEqual(observed["authenticity"], "UNVERIFIED")
+        self.assertEqual(
+            [finding["code"] for finding in observed["findings"]],
+            ["NO_EVIDENCE_ITEMS"],
+        )
+        self.assertEqual(observed["findings"][0]["severity"], "REVIEW")
+        self.write("evidence.json", empty)
+        analysis = analyse_case(self.case)
+        self.assertEqual(analysis["evidence"]["status"], "UNAVAILABLE")
+        self.assertEqual(analysis["status"], "HUMAN_REVIEW")
+        self.assertEqual(self.quality(analysis)["result"], "UNKNOWN")
+        self.assertIn("NO_EVIDENCE_ITEMS", self.codes(analysis))
+        self.assertIs(analysis["work_allowed"], False)
+        self.assertIs(analysis["payment_authorised"], False)
+
     def test_tampered_bytes_never_become_failed_performance(self):
         (self.case / "evidence/sample.json").write_bytes(b"changed bytes")
         result = analyse_case(self.case)
