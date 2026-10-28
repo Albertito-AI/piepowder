@@ -161,6 +161,30 @@
       "next_milestone": "P02 independent human reconstruction and operation-specific minimum P03 checks",
       "next_owner": "GitHub Adoption for private exercise and register; Academic GitHub Development for any discovered technical defect",
       "next_gate": "Verify exact-head tests, merge only after review, and retain P02/P03 customer-operation HOLD until actual person/permission/environment evidence."
+    },
+    {
+      "id": "README-DEMO-20261028",
+      "date": "2026-10-28",
+      "version": "0.1.0a1",
+      "stage": "public_experimental_documentation",
+      "problem": "Visitors must run the prototype or read long sections before seeing its bounded denominator and evidence-review capability.",
+      "change": "Added a near-top observed-result illustration, six-case transcript, exact source provenance and the unmodified generated offline viewer. Runtime, fixtures and reserved rights are unchanged.",
+      "validation": {
+        "source_commit": "d3fcef95f53c82b4e170a914f21e45f4a2c52263",
+        "runtime": "CPython 3.12.14 on Linux x86_64",
+        "tests_passed": 57,
+        "tests_failed": 0,
+        "tests_skipped": 0,
+        "demonstration_cases": 6,
+        "docket_phase": "HUMAN_REVIEW_PENDING",
+        "browser_interaction": "NOT_PERFORMED",
+        "hosted_ci": "Refer to this documentation pull request and its exact commit checks.",
+        "independent_human_first_use": "NOT_PERFORMED"
+      },
+      "observed_outcome": "Unspecified denominator and missing, conflicting or contested evidence retain UNKNOWN; explicit supported criteria produce the recorded numerical observations.",
+      "work_allowed": false,
+      "payment_authorised": false,
+      "next_gate": "P02 independent human first use and operation-specific P03 evidence remain open; no customer release or legal authority is established."
     }
   ]
 }

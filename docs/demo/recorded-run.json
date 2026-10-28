@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "source_commit": "d3fcef95f53c82b4e170a914f21e45f4a2c52263",
+  "source_url": "https://github.com/Albertito-AI/piepowder/tree/d3fcef95f53c82b4e170a914f21e45f4a2c52263",
+  "recorded_date": "2026-10-28",
+  "synthetic": true,
+  "runtime": "CPython 3.12.14 on Linux x86_64",
+  "executed_command": "PYTHONPATH=src python -m piepowder demo --output <temporary-directory>",
+  "path_note": "The temporary output path is omitted; all displayed domain results are retained unchanged.",
+  "exit_status": 0,
+  "observed_stdout": {
+    "cases": [
+      {
+        "agreement_sha256": "2462fdc72289986f17fbf1c3be782c5d80a9be1270e9184a88d91bfb4d640885",
+        "case_id": "geocode-ambiguous",
+        "checks": [
+          {
+            "kind": "recorded_mandate_scope",
+            "result": "SATISFIED"
+          },
+          {
+            "kind": "recorded_mandate_scope",
+            "result": "SATISFIED"
+          },
+          {
+            "kind": "geocode_accuracy",
+            "result": "UNKNOWN"
+          },
+          {
+            "kind": "recorded_submission_window",
+            "result": "SATISFIED"
+          }
+        ],
+        "dossier_sha256": "382ab79933dd18942d4922e5eac638e440f465dca2b02861f8cbed5ac7e7452d",
+        "status": "HUMAN_REVIEW"
+      },
+      {
+        "agreement_sha256": "74fac20c2bd0fa07fe274a565cf80196a14720848343a7d2e3b9ff5ad64eb21b",
+        "case_id": "geocode-explicit-pass",
+        "checks": [
+          {
+            "kind": "recorded_mandate_scope",
+            "result": "SATISFIED"
+          },
+          {
+            "kind": "recorded_mandate_scope",
+            "result": "SATISFIED"
+          },
+          {
+            "kind": "geocode_accuracy",
+            "result": "SATISFIED"
+          },
+          {
+            "kind": "recorded_submission_window",
+            "result": "SATISFIED"
+          }
+        ],
+        "dossier_sha256": "3b8d7aba62b189ef2946d43975a2ecb18c2d5e852eaeb03bc075a1ad31c7a896",
+        "status": "CHECKS_COMPLETE"
+      },
+      {
+        "agreement_sha256": "6933de7a70f97d9378b75c90282b01ea2dfef855d40da22d5b80d90519cc50c0",
+        "case_id": "geocode-explicit-fail",
+        "checks": [
+          {
+            "kind": "recorded_mandate_scope",
+            "result": "SATISFIED"
+          },
+          {
+            "kind": "recorded_mandate_scope",
+            "result": "SATISFIED"
+          },
+          {
+            "kind": "geocode_accuracy",
+            "result": "NOT_SATISFIED"
+          },
+          {
+            "kind": "recorded_submission_window",
+            "result": "SATISFIED"
+          }
+        ],
+        "dossier_sha256": "6eb6e025bc81fe3de481e9c0f71f31d8f0ba4db7d874dfaa61d48455202a23b4",
+        "status": "HUMAN_REVIEW"
+      },
+      {
+        "agreement_sha256": "74fac20c2bd0fa07fe274a565cf80196a14720848343a7d2e3b9ff5ad64eb21b",
+        "case_id": "geocode-contested",
+        "checks": [
+          {
+            "kind": "recorded_mandate_scope",
+            "result": "SATISFIED"
+          },
+          {
+            "kind": "recorded_mandate_scope",
+            "result": "SATISFIED"
+          },
+          {
+            "kind": "geocode_accuracy",
+            "result": "UNKNOWN"
+          },
+          {
+            "kind": "recorded_submission_window",
+            "result": "SATISFIED"
+          }
+        ],
+        "dossier_sha256": "792057926b6ef079de8f8157cba03e475cce16b69eede992ac29170b110de707",
+        "status": "HUMAN_REVIEW"
+      },
+      {
+        "agreement_sha256": "74fac20c2bd0fa07fe274a565cf80196a14720848343a7d2e3b9ff5ad64eb21b",
+        "case_id": "geocode-conflicting",
+        "checks": [
+          {
+            "kind": "recorded_mandate_scope",
+            "result": "SATISFIED"
+          },
+          {
+            "kind": "recorded_mandate_scope",
+            "result": "SATISFIED"
+          },
+          {
+            "kind": "geocode_accuracy",
+            "result": "UNKNOWN"
+          },
+          {
+            "kind": "recorded_submission_window",
+            "result": "SATISFIED"
+          }
+        ],
+        "dossier_sha256": "4f8e7b290f9addf88b5c0864d3c2fb96e772b8ab4f160095b6ce86bfcbe021e7",
+        "status": "HUMAN_REVIEW"
+      },
+      {
+        "agreement_sha256": "74fac20c2bd0fa07fe274a565cf80196a14720848343a7d2e3b9ff5ad64eb21b",
+        "case_id": "geocode-missing-evidence",
+        "checks": [
+          {
+            "kind": "recorded_mandate_scope",
+            "result": "SATISFIED"
+          },
+          {
+            "kind": "recorded_mandate_scope",
+            "result": "SATISFIED"
+          },
+          {
+            "kind": "geocode_accuracy",
+            "result": "UNKNOWN"
+          },
+          {
+            "kind": "recorded_submission_window",
+            "result": "UNKNOWN"
+          }
+        ],
+        "dossier_sha256": "13596c2265d3819b5905048fbc02a31d9e276577bc3ea189dd3ed982a6d1595d",
+        "status": "HUMAN_REVIEW"
+      }
+    ],
+    "docket_head_sha256": "dfb6398d0c1ff2c73351106362720776279f8e267322d3175ca1b5f975889dd3",
+    "docket_phase": "HUMAN_REVIEW_PENDING",
+    "engine_version": "0.1.0a1",
+    "mode": "fictional_local_examples",
+    "payment_authorised": false,
+    "schema_version": "piepowder.demo/0.1",
+    "work_allowed": false
+  },
+  "verifier_stdout": [
+    {
+      "admitted_evidence_ids": [
+        "sample-results"
+      ],
+      "assessment_sha256": "5336dc8a27a90173de9b6a7b97a7270444f80d5cc38f0a5165066ec72de93c57",
+      "assessment_status": "HUMAN_REVIEW",
+      "authority_verified": false,
+      "case_id": "geocode-ambiguous",
+      "checkpoint_compared": false,
+      "event_count": 6,
+      "flags": [],
+      "head_sha256": "dfb6398d0c1ff2c73351106362720776279f8e267322d3175ca1b5f975889dd3",
+      "integrity": "internally_consistent",
+      "legal_effect": "none",
+      "notice_verified": false,
+      "payment_authorised": false,
+      "phase": "HUMAN_REVIEW_PENDING",
+      "requires_human_review": true,
+      "schema_version": "piepowder.docket_projection/0.1",
+      "timestamps_authenticated": false,
+      "work_allowed": false
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "index.html",
+      "sha256": "9293687c58c15f26bb29724097750c8d5011c3871b29272365afc3e424386c05"
+    }
+  ],
+  "visual": "preview.svg is a static illustration of observed output, not a screenshot.",
+  "no_new_provider_calls_or_customer_data": true
+}
