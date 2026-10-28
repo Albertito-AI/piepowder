@@ -10,6 +10,28 @@ The founding report proposes a broader agent judiciary. This first build tests
 its prevention-first idea through one narrow problem: two parties can agree on
 98% accuracy while disagreeing about which records count in the denominator.
 
+## See it in action
+
+Feed the local reviewer a fictional contract, its acceptance rule and a sample
+with 972 correct, 11 incorrect and 17 flagged records. The same sample can fall
+below or above 98%, depending on which denominator the parties actually agreed.
+
+![Observed Piepowder cases: an unspecified denominator stays unknown; including flagged records gives 97.2 percent; excluding them gives 98.880977 percent.](docs/demo/preview.svg)
+
+This is an illustration of executed numerical checks. An unspecified rule
+remains `UNKNOWN` and requires human review. `CHECKS_COMPLETE` grants no legal
+determination, work permission or payment authority. The inputs are fictional.
+
+From an authorised checkout under [RIGHTS.md](RIGHTS.md), with Python 3.10 or later:
+
+```sh
+PYTHONPATH=src python -m piepowder demo --output artifacts/readme-demo
+```
+
+[Recorded six-case results and reproduction notes](docs/demo/README.md) ·
+[Generated offline viewer](docs/demo/index.html) (open the file from your checkout;
+GitHub displays its source).
+
 ## See it work
 
 Python 3.10 or later; no runtime or test dependencies outside the standard library.

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="540" viewBox="0 0 1120 540" role="img" aria-labelledby="title description">
+<title id="title">Piepowder: explicit denominator rules change the numerical observation</title>
+<desc id="description">For a fictional sample of 972 correct, 11 incorrect and 17 flagged records, an unspecified denominator stays UNKNOWN. Counting all records gives 97.2 percent and NOT_SATISFIED. Excluding flagged records gives 98.880977 percent and SATISFIED. No work or payment is authorised.</desc>
+<rect x="0" y="0" width="1120" height="540" rx="18" fill="#0b1523"/>
+<text x="42" y="35" fill="#d1bbff" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">PIEPOWDER / EXECUTED FICTIONAL CASES</text>
+<text x="42" y="78" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700">One sample. Two incompatible readings.</text>
+<text x="42" y="112" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">972 correct · 11 incorrect · 17 flagged · agreed accuracy threshold: 98%</text>
+<text x="60" y="166" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">DENOMINATOR RULE</text>
+<text x="350" y="166" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">RECORDED RATE</text>
+<text x="594" y="166" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">QUALITY CHECK</text>
+<text x="840" y="166" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">OVERALL</text>
+<rect x="42" y="188" width="1036" height="72" rx="10" fill="#17223b"/>
+<text x="60" y="231" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400">Unspecified</text>
+<text x="350" y="231" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">Both remain visible</text>
+<text x="594" y="231" fill="#f5c574" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">UNKNOWN</text>
+<text x="840" y="231" fill="#f5c574" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">HUMAN_REVIEW</text>
+<rect x="42" y="278" width="1036" height="72" rx="10" fill="#17223b"/>
+<text x="60" y="321" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400">Include all 1,000</text>
+<text x="350" y="321" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">97.200000%</text>
+<text x="594" y="321" fill="#ffb5b5" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">NOT_SATISFIED</text>
+<text x="840" y="321" fill="#ffb5b5" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">HUMAN_REVIEW</text>
+<rect x="42" y="368" width="1036" height="72" rx="10" fill="#17223b"/>
+<text x="60" y="411" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400">Exclude 17 flagged</text>
+<text x="350" y="411" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="400">98.880977%</text>
+<text x="594" y="411" fill="#79ddc3" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">SATISFIED</text>
+<text x="840" y="411" fill="#79ddc3" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">CHECKS_COMPLETE</text>
+<text x="42" y="480" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400">The 17 flagged records meet the agreed 2% cap. Counts are fictional assertions.</text>
+<text x="42" y="514" fill="#d1bbff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="400">work_allowed: false · payment_authorised: false · no legal determination</text>
+</svg>
