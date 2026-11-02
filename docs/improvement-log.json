@@ -185,6 +185,21 @@
       "work_allowed": false,
       "payment_authorised": false,
       "next_gate": "P02 independent human first use and operation-specific P03 evidence remain open; no customer release or legal authority is established."
+    },
+    {
+      "id": "WIKI-WHITEPAPER-20261102",
+      "date": "2026-11-02",
+      "stage": "public_experimental_documentation",
+      "problem": "The project lacks a single substantive Wiki explanation of its first principles and ideal public-interest direction.",
+      "change": "Added original AI-assisted foundations paper and a guarded Wiki publisher. Preserved UNKNOWN, non-operative checks, reserved rights and P02/P03 gates.",
+      "validation": {
+        "source_links": "Checked against inspected source revisions",
+        "publisher": "Six local preservation/refusal cases passed; actual hosted run must be inspected separately",
+        "independent_human_review": "NOT_PERFORMED"
+      },
+      "work_allowed": false,
+      "payment_authorised": false,
+      "next_gate": "Initialise Wiki, verify published page and continue existing independent first-use evidence work."
     }
   ]
 }
