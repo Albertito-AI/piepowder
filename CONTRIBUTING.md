@@ -31,7 +31,9 @@ notes using the contributor's preferred name or GitHub handle. Describe which
 work you performed and any tools or sources that materially assisted it. Record
 independent review only when it actually occurred.
 
-Where funded work becomes available, collaborators can discuss paid engineering,
-research, documentation or support assignments. Agree roles, deliverables,
-intellectual-property arrangements and payment terms in writing before work begins.
-Earnings or revenue sharing depend on the specific agreement and actual funding.
+Contributions are voluntary and unpaid. The maintainer does not offer
+contributor fees, bounties, stipends or reimbursements for participation.
+Submitting a proposal or pull request does not create an employment, payment
+or revenue-sharing entitlement. Any separate customer purchase or service
+engagement requires its own agreed scope, rights and commercial terms; it is
+not an invitation to undertake paid contributor work.
