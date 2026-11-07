@@ -26,5 +26,7 @@ Commercial prospect sending authority for RegNav does not extend to Piepowder ou
 Support the owner's invitation to co-creators through original proposals, technical
 feedback and agreed contributions. Resolve external contribution scope and permission
 under RIGHTS.md before accepting code or documentation. Credit actual contributions.
-Any funded collaboration needs agreed roles, deliverables, IP and payment terms;
-community participation creates no automatic revenue-sharing arrangement.
+Contributions are unpaid: offer no contributor fee, bounty, stipend or
+reimbursement. Do not solicit work from contributors in expectation of payment.
+A separately agreed customer purchase is distinct from voluntary community
+participation and remains subject to the existing commercial release gates.
