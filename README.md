@@ -165,3 +165,7 @@ Project owner: **Albert Tan Sin Hon**, GitHub `Albertito-AI`.
 Piepowder remains a working name. Repository visibility is public; the reserved
 rights in RIGHTS.md continue to apply. Customer work follows the owner's verification,
 agreement, actual bank-receipt and scoped release requirements.
+
+## Sport governance teaching application
+
+Apply an explicit acceptance test to a supplier’s accessibility deliverable. Keep evidence of delivery apart from the officer’s authority to release payment. [Exercise and records](https://github.com/Albertito-AI/sport-governance-and-administration/blob/main/tools/README.md) · [Albert Tan’s book and teaching companion](https://alberttansinhon.com/sport-governance/).
